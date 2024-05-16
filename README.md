@@ -14,6 +14,7 @@ Nmapを使用してネットワーク全体をスキャンし、結果を取得�
 IPアドレスをExcelシートの対応するセルに書き込みます。
 
 ネットワーク全体をスキャンするのは時間がかかるためだめ。
+うまくやれば耐えるかもしれない。
 
 ### 案2 △
 
@@ -84,6 +85,12 @@ pingコマンドを使用してホスト名からIPアドレスを取得しま�
 IPアドレスに対してarpコマンドを使用してMACアドレスを取得します。
 取得したMACアドレスをExcelシートに表示します。
 
+実質、LookupMacFromIpと同じ
+
 ## 注意
 
 arpコマンドを使用しているものは、同じネットワーク内でないといけないかも
+
+excel
+A    B	C	D	E
+Hostname	IP-Address	Status	Last reachable at	MAC Address
