@@ -2,6 +2,8 @@
 
 ## Ping 〇
 
+**Done**
+
 ## LookupIpFromMac
 
 ### 案1 ×
@@ -22,6 +24,8 @@ arpコマンドを使用してMACアドレスからIPアドレスを取得しま
 arpコマンドで取得できるのは、直近で通信した相手のみ。
 
 ## LookupIpFromHostname
+
+**Done**
 
 ### 案1 ×
 
